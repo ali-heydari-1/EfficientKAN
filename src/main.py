@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
-import ggg
+import model.kanetwork as ggg
 
 # Transformation for MNIST data
 transform = transforms.Compose([
